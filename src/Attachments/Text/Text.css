@@ -1,0 +1,26 @@
+.Text__Content {
+    width: 100%;
+    gap: 3rem;
+}
+
+.Text__Content h3{
+    color: gray;
+    transition-duration: 0.4s;
+    margin-bottom: 15px;
+    display: inline;
+    
+}
+.Text__Content .left{
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.Text__Content .line{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 25px;
+}
+
+.Text__Content h3:hover{
+    color: #0d6efd;
+}

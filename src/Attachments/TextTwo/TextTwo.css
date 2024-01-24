@@ -1,0 +1,24 @@
+.Text__ContentTwo {
+    width: 100%;
+    gap: 3rem;
+    color: gray;
+}
+
+.Text__ContentTwo ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.Text__ContentTwo .line{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 25px;
+}
+
+.Text__ContentTwo h3:hover{
+    transition-duration: 0.4s;
+}
+.Text__ContentTwo h3:hover{
+    color: #0d6efd;
+}

@@ -1,0 +1,18 @@
+    .box_stayle {
+  max-width: 1000px;
+  margin: auto;
+
+}
+
+.box_stayle ul{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 650px) {
+    .box_stayle ul {
+        width: 90%;
+    }
+}

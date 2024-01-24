@@ -1,0 +1,87 @@
+.tontent {
+    max-width: 860px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.tontent>div{
+    width: 100%;
+}
+
+
+.tontent .input {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.tontent .input select {
+    padding: 10px;
+    border-radius: 10px;
+    width: 49%;
+    margin: auto;
+    gap: 1rem;
+    outline: none;
+    border: 1px solid #0D6EFD ;
+}
+
+
+.tontent .karta iframe {
+    border-radius: 20px;
+    width: 100%; 
+}
+
+.tontent .inputTel .inputtt{
+    padding: 10px;
+    width: 45%;
+    outline: none;
+    border-radius: 10px;
+}
+
+.tontent .inputTel button{
+    padding: 7px;
+    width: 38%;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    border: none;
+}
+
+.tontent .inputTel .inputtt label{
+    margin-top: 20px;
+}
+
+.inputTel input{
+    border: none;
+    border: 1px solid #0D6EFD ;
+}
+.inputTel label{
+    font-size: 20px;
+}
+
+.father_form{
+    display: flex;
+    justify-content: center;
+}
+.massage{
+    text-align: center;
+}
+.massage input{
+    text-align: center;
+    width: 20vw;
+    height: 4vh;
+    margin: 15px 0;
+    border-radius: 6px;
+    border: none;
+    border-bottom:2px solid grey;
+}
+
+.sentMassage{
+    width: 20vw;
+    height: 6vh;
+    border-radius: 10px;
+    border: 3px solid #0D6EFD;
+    background-color: #0d6dfd50;
+}
